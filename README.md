@@ -33,3 +33,9 @@ The dataset contains over 21,000 home sale records for King County, WA between 2
 
 # Methodology
 Python libraries like Pandas, NumPy, Matplotlib and scikit-learn are used for data exploration, preprocessing, modeling and evaluation. Models will include linear regression, polynomial regression and ensemble methods.
+
+# Modeling
+LinearRegression, Polynomial transformations, Regularization (Ridge).
+
+# Results
+2nd degree polynomial Ridge model achieves highest R2 of 0.704 on test data. 
