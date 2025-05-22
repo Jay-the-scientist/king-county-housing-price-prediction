@@ -1,10 +1,16 @@
 # King County Housing Price Prediction
-This project analyzes housing data from King County to build models for predicting home sale prices. The goal is to aid in real estate investment decisions.
 
-# The Task
-As a data analyst at a real estate investment trust, I was tasked with determining factors that influence housing prices and developing predictive models. This will help assess markets and value of potential properties to purchase.
+## Objective
+This project analyzes housing data from King County to build models for predicting home sale prices. The goal is to aid in real estate investment decisions. With the use-case of being a data analyst at a real estate investment trust, I was tasked with determining factors that influence housing prices and developing predictive models. This will help assess markets and value of potential properties to purchase.
 
-# The Data
+## Installation
+Install the required Python libraries with:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+## The Data
 The dataset contains over 21,000 home sale records for King County, WA between 2014-2015. Features include property details like bedrooms, bathrooms, square footage, building age, as well as location and sale date/price.
 
 | Variable      | Description                                                                                                 |
@@ -31,11 +37,10 @@ The dataset contains over 21,000 home sale records for King County, WA between 2
 | sqft_living15 | Living room area in 2015(implies-- some renovations) This might or might not have affected the lotsize area |
 | sqft_lot15    | LotSize area in 2015(implies-- some renovations)       
 
-# Methodology
-Python libraries like Pandas, NumPy, Matplotlib and scikit-learn are used for data exploration, preprocessing, modeling and evaluation. Models will include linear regression, polynomial regression and ensemble methods.
+## Methodology
+Data preprocessing involved removing outliers, converting date values, and engineering new features like age of the home. Exploratory analysis identified strong correlations, especially between square footage and price. Models such as Linear Regression and Decision Tree Regressor were trained and evaluated. Metrics like R² and RMSE were used to assess performance.
 
-# Modeling
-LinearRegression, Polynomial transformations, Regularization (Ridge).
-
-# Results
+## Results
 2nd degree polynomial Ridge model achieves highest R2 of 0.704 on test data. 
+
+## Visualizations
