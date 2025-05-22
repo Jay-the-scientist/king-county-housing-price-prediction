@@ -42,6 +42,7 @@ The dataset contains over 21,000 home sale records for King County, WA between 2
 Data preprocessing involved removing outliers, converting date values, and engineering new features like age of the home. Exploratory analysis identified strong correlations, especially between square footage and price. Models such as Linear Regression and Decision Tree Regressor were trained and evaluated. Metrics like R² and RMSE were used to assess performance.
 
 ## Results
-2nd degree polynomial Ridge model achieves highest R2 of 0.704 on test data. 
+- Living space (sqft_living) had the strongest correlation with price.
+- Newer houses and properties in premium locations commanded higher prices.
 
 ## Visualizations
