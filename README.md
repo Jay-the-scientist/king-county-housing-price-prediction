@@ -1,7 +1,8 @@
 # King County Housing Price Prediction
+This project analyzes housing data from King County to build models for predicting home sale prices. The goal is to aid in real estate investment decisions. 
 
 ## Objective
-This project analyzes housing data from King County to build models for predicting home sale prices. The goal is to aid in real estate investment decisions. With the use-case of being a data analyst at a real estate investment trust, I was tasked with determining factors that influence housing prices and developing predictive models. This will help assess markets and value of potential properties to purchase.
+As a data analyst at a real estate investment trust, I was tasked with determining factors that influence housing prices and developing predictive models. This will help assess markets and value of potential properties to purchase.
 
 ## Installation
 Install the required Python libraries with:
