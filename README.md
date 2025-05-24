@@ -39,7 +39,7 @@ The dataset contains over 21,000 home sale records for King County, WA between 2
 | sqft_lot15    | LotSize area in 2015(implies-- some renovations)       
 
 ## Methodology
-Data preprocessing involved removing outliers, converting date values, and engineering new features like age of the home. Exploratory analysis identified strong correlations, especially between square footage and price. Models such as Linear Regression and Decision Tree Regressor were trained and evaluated. Metrics like R² and RMSE were used to assess performance.
+Data preprocessing involved removing outliers, converting date values, and engineering new features like age of the home. Exploratory analysis identified strong correlations, especially between square footage and price. Models such as Linear Regression and Ridge Regression were trained and evaluated. Metrics like R² and RMSE were used to assess performance.
 
 ## Results
 ### Living space (sqft_living) had the strongest correlation with price.
